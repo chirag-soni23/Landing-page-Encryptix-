@@ -369,7 +369,7 @@ footer .content{
 @media (max-width: 940px){
     nav ul{
         position: fixed;
-        top: 80px;
+        top: 40px;
         left: -100%;
         background-color: #111;
         height: 100vh;

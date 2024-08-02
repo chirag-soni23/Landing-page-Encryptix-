@@ -15,6 +15,7 @@ body {
 /* --------Navbar-------- */
 nav {
     height: 40px;
+    width:100%;
     background-color: #333333;
     display: flex;
     justify-content: space-between;
@@ -71,9 +72,8 @@ nav .hamburger-menu i {
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     padding: 10px;
 }
 

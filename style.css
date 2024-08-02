@@ -1,20 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html , body{
+
+html,
+body {
     height: 100%;
     width: 100%;
     font-family: sans-serif;
     overflow-x: hidden;
 }
 
-
-
-
 /* --------Navbar-------- */
-nav{
+nav {
     height: 40px;
     background-color: #333333;
     display: flex;
@@ -27,27 +26,32 @@ nav{
     padding: 20px;
     z-index: 999;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
 }
-nav ul li{
+
+nav ul li {
     margin: 0px 10px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #ffff;
     padding: 8px 10px;
     transition: all 0.3s ease;
-    
+
 }
+
 nav ul li a:hover,
-nav ul li a.active{
+nav ul li a.active {
     background-color: #ffff;
     color: #000;
     border-radius: 3px;
 }
-nav .hamburger-menu i{
+
+nav .hamburger-menu i {
     color: #ffff;
     display: none;
     font-size: 22px;
@@ -55,8 +59,10 @@ nav .hamburger-menu i{
 }
 
 
+
+
 /* --------------------  Container 1 ------------ */
-.container{
+.container {
     width: 100%;
     height: 100vh;
     background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
@@ -69,28 +75,34 @@ nav .hamburger-menu i{
     align-items: center;
     padding: 10px;
 }
-.container .content{
+
+.container .content {
     text-align: center;
     color: #fff;
     margin-top: 20vh;
     font-size: 2rem;
 }
-.container .content .content1{
+
+.container .content .content1 {
     margin-top: 2rem;
     font-size: 1.5rem;
     font-weight: lighter;
 }
-.container .content .content2{
+
+.container .content .content2 {
     margin-top: 3rem;
     font-size: 1.1rem;
 }
-.container .content .content3{
+
+.container .content .content3 {
     margin-top: 1rem;
     font-size: 16px;
 }
 
+
+
 /* ---------------Container2--------------------- */
-.container2{
+.container2 {
     height: 100%;
     background-color: #252529;
     width: 100%;
@@ -98,59 +110,69 @@ nav .hamburger-menu i{
     align-items: center;
     flex-direction: column;
 }
-.container2 .content{
+
+.container2 .content {
     color: #fff;
     text-align: center;
     padding-top: 8vh;
     font-size: 20px;
 }
-.container2 .content2{
+
+.container2 .content2 {
     margin-top: 5vh;
 }
-.container2 .content3{
-    margin-top:5vh;
+
+.container2 .content3 {
+    margin-top: 5vh;
     font-size: 11px;
     font-weight: lighter;
 }
-.container2 .content4{
+
+.container2 .content4 {
     margin-top: 1vh;
     font-size: 11px;
     text-align: center;
 }
-.container2 .content5{
+
+.container2 .content5 {
     margin-top: 1vh;
     font-size: 11px;
- 
-} 
-.container2 .button{
+
+}
+
+.container2 .button {
     margin-top: 4vh;
     text-align: center;
 }
-.container2 .button input{
+
+.container2 .button input {
     height: 10vh;
     width: 24vh;
-    background-color:#B90415;
+    background-color: #B90415;
     color: #fff;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     border: none;
 }
-.container2 .button input:hover{
+
+.container2 .button input:hover {
     background-color: #B90409;
 }
 
-.container2 .content6{
+.container2 .content6 {
     margin-top: 6vh;
     font-size: 11px;
     color: #fff;
     text-align: center;
-} 
-.container .img{
+}
+
+.container .img {
     max-width: 500px;
     margin: auto;
 }
-.container2 .img img{
+
+.container2 .img img {
     margin-top: 7vh;
     width: 100%;
     height: auto;
@@ -162,7 +184,7 @@ nav .hamburger-menu i{
 
 
 /* ------------Container3 ---------------- */
-.container3{
+.container3 {
     height: 100%;
     width: 100%;
     background-color: #F4F4F4;
@@ -171,30 +193,35 @@ nav .hamburger-menu i{
     align-items: center;
     flex-direction: column;
 }
-  
 
-.container3 .content{
+
+.container3 .content {
     text-align: center;
     color: rgb(26, 31, 44);
     padding-top: 10vh;
 }
-.container3 .content1{
+
+.container3 .content1 {
     margin-top: 5vh;
     font-size: 16px;
     text-align: center;
     color: rgb(26, 31, 44);
 }
-.container3 .content1 h2{
+
+.container3 .content1 h2 {
     margin-top: 1vh;
 }
-.container3 .content1 .head{
+
+.container3 .content1 .head {
     margin-top: 1vh;
 }
-.container3 .button{
+
+.container3 .button {
     margin-top: 4vh;
     text-align: center;
 }
-.container3 .button input{
+
+.container3 .button input {
     height: 10vh;
     width: 24vh;
     background-color: #143F85;
@@ -204,27 +231,29 @@ nav .hamburger-menu i{
     cursor: pointer;
     border: none;
 }
-.container3 .button input:hover{
+
+.container3 .button input:hover {
     background-color: #154896;
 }
 
-.container .image{
+.container .image {
     max-width: 600px;
     margin: auto;
 }
-.container3 .image img{
+
+.container3 .image img {
     margin-top: 7vh;
     width: 100%;
     height: auto;
     display: block;
 }
 
-.container3 .home{
+.container3 .home {
     margin-top: -105vh;
     width: 83%;
     margin-bottom: 22vh;
     height: 98vh;
-    
+
 }
 
 /* -------Background Image tasks------------ */
@@ -233,7 +262,7 @@ nav .hamburger-menu i{
     position: relative;
     width: 100%;
     padding: 10rem 0;
-    background-image: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg'); 
+    background-image: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -241,21 +270,24 @@ nav .hamburger-menu i{
     align-items: center;
     margin-bottom: 10vh;
 }
-.responsive-text .text{
+
+.responsive-text .text {
     display: flex;
     flex-direction: column;
     gap: 40px;
     justify-content: center;
     align-items: center;
 }
+
 .responsive-text {
     color: white;
     text-align: center;
     padding: 20px;
 }
-.responsive-text p{
-font-size: 1.4rem;
-width: 90%;
+
+.responsive-text p {
+    font-size: 1.4rem;
+    width: 90%;
 }
 
 
@@ -268,10 +300,12 @@ width: 90%;
     padding: 20px;
     text-align: center;
 }
+
 .gift-card {
     max-width: 100%;
     height: auto;
 }
+
 .container-gift .content {
     display: flex;
     flex-direction: column;
@@ -279,7 +313,8 @@ width: 90%;
     max-width: 800px;
     padding: 20px;
 }
-.container-gift .content span a{
+
+.container-gift .content span a {
     text-decoration: none;
     color: #020d1e;
 
@@ -349,25 +384,28 @@ width: 90%;
 
 
 /* ....................footer start here................. */
-footer{
+footer {
     height: 10vh;
-    background-color:  rgb(32, 33, 36);
+    background-color: rgb(32, 33, 36);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
 }
-footer .content{
+
+footer .content {
     color: #fff;
 }
 
 
 
+
+/* ...............Media query started here............*/
 /* --------------- Responsive Navbar -------- */
 
-@media (max-width: 940px){
-    nav ul{
+@media (max-width: 940px) {
+    nav ul {
         position: fixed;
         top: 40px;
         left: -100%;
@@ -377,95 +415,102 @@ footer .content{
         display: block;
         text-align: center;
     }
-    nav ul li{
+
+    nav ul li {
         margin: 40px 0px;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 20px;
     }
-    nav .hamburger-menu i{
+
+    nav .hamburger-menu i {
         color: #ffff;
         display: block;
         font-size: 22px;
         cursor: pointer;
-        
+
     }
-    #click:checked ~ ul{
+
+    #click:checked~ul {
         left: 0;
         transition: all 1s ease;
     }
-    #click:checked ~ .hamburger-menu i:before{
+
+    #click:checked~.hamburger-menu i:before {
         content: "\f00d";
     }
-    }
+}
 
 
-    /* -----Responsive background image------- */
-    @media (max-width: 768px) {
-        .responsive-text {
-            font-size: 5vw; 
-        }
+/* -----Responsive background image------- */
+@media (max-width: 768px) {
+    .responsive-text {
+        font-size: 5vw;
     }
-    
-    @media (max-width: 480px) {
-        .responsive-text {
-            font-size: 7vw; 
-        }
+}
+
+@media (max-width: 480px) {
+    .responsive-text {
+        font-size: 7vw;
     }
+}
 
 
-    /* -------- Gift Card ------- */
-    @media (min-width: 768px) {
-        .container-gift {
-            flex-direction: row;
-            justify-content: space-between;
-            text-align: left;
-        }
-        .gift-card {
-            max-width: 50%;
-        }
-        .content {
-            max-width: 50%;
-        }
+/* -------- Gift Card ------- */
+@media (min-width: 768px) {
+    .container-gift {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
     }
-    
-    
-    
 
-    /* ------------Small Container ------- */
-    @media (max-width: 768px) {
-        .small-container ul {
-            gap: 1rem;
-            flex-direction: column;
-        }
-    
-        .small-container ul li {
-            font-size: 16px;
-        }
-    
-        .small-container .Shop .music li,
-        .small-container .Store .orange li,
-        .small-container .Other .education li,
-        .small-container .About .room li {
-            font-size: 14px;
-        }
+    .gift-card {
+        max-width: 50%;
     }
-    
-    @media (max-width: 480px) {
-        .small-container ul {
-            gap: 0.5rem;
-        }
-    
-        .small-container ul li {
-            font-size: 14px;
-        }
-    
-        .small-container .Shop .music li,
-        .small-container .Store .orange li,
-        .small-container .Other .education li,
-        .small-container .About .room li {
-            font-size: 12px;
-        }
+
+    .content {
+        max-width: 50%;
     }
+}
+
+
+
+
+/* ------------Small Container ------- */
+@media (max-width: 768px) {
+    .small-container ul {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .small-container ul li {
+        font-size: 16px;
+    }
+
+    .small-container .Shop .music li,
+    .small-container .Store .orange li,
+    .small-container .Other .education li,
+    .small-container .About .room li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .small-container ul {
+        gap: 0.5rem;
+    }
+
+    .small-container ul li {
+        font-size: 14px;
+    }
+
+    .small-container .Shop .music li,
+    .small-container .Store .orange li,
+    .small-container .Other .education li,
+    .small-container .About .room li {
+        font-size: 12px;
+    }
+}
 
 /* ........media query ends......... */

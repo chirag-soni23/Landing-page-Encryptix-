@@ -20,7 +20,7 @@
     <nav>
       <input style="display: none;" type="checkbox" name="" id="click">
       <label for="click" class="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
-      <ul>
+      <ul id="nav-menu">
           <li><a class="active" href="#">myTunes</a></li>
           <li><a href="#">Overview</a></li>
           <li><a href="#music">Music</a></li>
@@ -181,4 +181,11 @@
 
     </footer>
   </body>
+  <script>
+    document.querySelectorAll('#nav-menu li a').forEach(item => {
+      item.addEventListener('click', () => {
+          document.getElementById('click').checked = false;
+      });
+  });
+  </script>
 </html>

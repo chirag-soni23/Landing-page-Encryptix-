@@ -30,6 +30,7 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+    transition: all 1s ease;
 }
 
 nav ul li {
